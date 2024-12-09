@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "The current directory is :"
+pwd
+whoami
+echo "Home for the current user is : $HOME"
+echo Hello, world!
+username=$(whoami)
+echo "Username is $username"
+var1=$((5 + 5))
+var2=$(($var1  * 2))
+echo $var2
